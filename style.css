@@ -6,23 +6,74 @@
 body {
   max-width: 60%;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cooking-container {
+  padding: 40px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  margin-top: 40px;
+}
+.sub-cooking-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.fa-solid {
+  color: #f2994a;
+  font-size: 30px;
+}
+.fa-regular {
+  font-size: 30px;
+  margin: auto;
+}
+.cooking-head-time {
+  margin-left: 10px;
+}
+.cooking-head {
+  color: #bdbdbd;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.cooking-time-d {
+  color: #f2994a;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+.cooking-time {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
 }
 h1 {
   color: #000;
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
   margin-top: 50px;
   margin-bottom: 12px;
 }
 .p1 {
   color: #4f4f4f;
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 500;
+  margin-left: 20px;
   margin-bottom: 18px;
-  max-width: 600px;
+  max-width: 580px;
 }
 img {
   width: 100%;
@@ -30,51 +81,41 @@ img {
 }
 .sub-title {
   color: #333;
-  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-weight: 700;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .ingredients-name {
   color: #333;
-  font-family: "Playfair Display", serif;
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 input[type="checkbox"] {
   color: #333;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
 }
-.ingredient-text span {
+.ingredient-text {
   color: #333;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 25px;
-}
-.bold-text {
-  color: #333;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
+  font-style: normal;
   line-height: 25px;
 }
 .cheesecake-recipe {
   display: flex;
   align-items: start;
-  gap: 20px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 40px;
 }
 .instructions {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 40px;
 }
 .rectangle {
@@ -87,7 +128,6 @@ input[type="checkbox"] {
   background-color: #f2994a;
   border-radius: 6px;
   color: #fff;
-  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-weight: 700;
   margin-right: 10px;
@@ -95,19 +135,12 @@ input[type="checkbox"] {
 }
 p {
   max-width: 400px;
+  font-style: normal;
 }
 .instruction-text {
   color: #000;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
-}
-.instruction-text span {
-  color: #333;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 150%;
 }
 .source {
@@ -117,15 +150,13 @@ p {
   margin-top: 60px;
   margin-bottom: 40px;
   color: #bdbdbd;
-  font-family: "Montserrat" sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 400;
   line-height: 150%;
 }
 
 footer {
-  font-family: "Montserrat" sans-serif;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 10px;
@@ -136,7 +167,6 @@ footer {
 footer span {
   text-decoration-line: underline;
   color: #828282;
-  font-family: "Montserrat" sans-serif;
   font-size: 14px;
   font-weight: 700;
 }
