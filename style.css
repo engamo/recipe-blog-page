@@ -23,6 +23,7 @@ body {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+  margin-left: 40px;
 }
 .sub-cooking-container {
   display: flex;
@@ -74,20 +75,21 @@ h1 {
 }
 @media (max-width: 800px) {
   body {
-    width: 90%;
-    max-width: 90%;
+    width: 95%;
+    max-width: 95%;
   }
   img {
     width: 100%;
     height: 200px;
   }
   .cooking-container {
-    align-items: flex-start;
+    align-items: start;
     padding: 20px;
     background: #fff;
     border: none;
     box-shadow: none;
     max-width: 800px;
+    margin-left: 0px;
   }
   .inner-cooking-container {
     display: flex;
@@ -108,10 +110,10 @@ h1 {
     flex-direction: column-reverse;
   }
 }
-@media (max-width: 400px) {
+/* @media (max-width: 375px) {
   body {
-    width: 90%;
-    max-width: 90%;
+    width: 95%;
+    max-width: 95%;
   }
   h1 {
     font-size: 24px;
@@ -124,23 +126,23 @@ h1 {
     height: 200px;
   }
   .cooking-container {
-    align-items: flex-start;
+    align-items: start;
     padding: 20px;
     background: #fff;
     border: none;
     box-shadow: none;
-    max-width: 400px;
-    margin-left: 40px;
+    max-width: 375px;
+    margin-left: 0px;
   }
   .inner-cooking-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: 375px;
   }
   .cooking-head-time {
-    width: 90px;
+    width: 70px;
   }
   .item {
     flex: 1;
@@ -155,13 +157,12 @@ h1 {
     font-size: 12px;
   }
   .fa-solid {
-    font-size: 20px;
+    font-size: 18px;
   }
   .fa-regular {
-    font-size: 20px;
-    margin: auto;
+    font-size: 18px;
   }
-}
+} */
 .p1 {
   color: #4f4f4f;
   font-size: 14px;
